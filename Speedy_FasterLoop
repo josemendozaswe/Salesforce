@@ -1,0 +1,15 @@
+// Speedy, Faster Loop
+
+List<String> beverageNames = New List<String>
+{
+    'Drip Brew',
+        'Iced coffee',
+        'Espresso',
+        'Frappe'
+};
+    Integer beverageNamesSize = beverageNames.size();
+for (Integer i = 0, j = beverageNamesSize; i < j; i++)
+{
+    String beverageName = beverageNames[i];
+    System.debug(beverageName);
+}
